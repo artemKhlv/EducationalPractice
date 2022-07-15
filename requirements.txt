@@ -1,11 +1,9 @@
 numpy
-pandas
-seaborn
 matplotlib
 sklearn
-install
 jupyterlab
-kaggle
-jupyter_client
 nbconvert
 ipykernel
+pandas
+seaborn
+kaggle
