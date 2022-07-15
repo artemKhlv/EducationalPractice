@@ -7,5 +7,3 @@ ipykernel
 pandas
 seaborn
 kaggle
-matplotlib.pyplot
-mpl_toolkits.mplot3d
