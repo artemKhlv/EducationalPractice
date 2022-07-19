@@ -37,8 +37,8 @@ jobs:
         
       - name: Login to Kaggle
         run: |
-              echo "username=${{ secrets.KAGGLE_USERNAME }}" >> $GITHUB_ENV
-              echo "key=${{ secrets.KAGGLE_KEY }}" >> $GITHUB_ENV
+              echo "username=${{ secrets.username }}" >> $GITHUB_ENV
+              echo "key=${{ secrets.key }}" >> $GITHUB_ENV
               
       - name: Submit Predictions to Kaggle
         run: kaggle competitions submit -c titanic -f ./kaggle/survived.csv -m "Submition from GitHub"
